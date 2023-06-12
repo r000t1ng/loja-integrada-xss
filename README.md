@@ -1,6 +1,6 @@
-#Cross Site Scripting on default complement
+# Cross Site Scripting on default complement
 
-#Overview of the Vulnerability
+# Overview of the Vulnerability
 This vulnerability makes it possible to inject content into zip code forms, where it is possible to perform the execution in a reflected way.
 As a default component of Ecommerce, it has a field where it performs address queries, but when sanitizing the input there is a loophole where it is possible to bypass the security control through "-" symbols.
 <br>
