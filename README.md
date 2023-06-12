@@ -13,5 +13,10 @@ Example payload:
 - On url, change a fields /carrinho/endereco/adicionar?cep={INJECT_HERE}
 <br> 
 <br> 
-#Proof of Concept
+# Proof of Concept
 <img src="https://i.imgur.com/O1Gq62d.png">
+<br>
+<br>
+# Google Hacking:
+inurl: carrinho/endereco/adicionar?cep=
+inurl: endereco/adicionar?cep=
